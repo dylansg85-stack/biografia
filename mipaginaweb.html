@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PAGINA WEB</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar">
+            <div class="brand">Dylan Santos Garcia</div>
+           
+            <a href="#" class="toggle-button" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links" id="navbarLinks">
+                <ul>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#" id="social-link">Redes Sociales</a></li>
+                  
+                    <li><a href="#" id="email-link">Mi Correo</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <center><h1>BIENVENIDOS A MI PAGINA WEB</h1></center>
+    <div class="contenedor-fotos">
+
+ <center><img src="perfil.jpg" alt="soy yo" class="img-redonda" width="200" height="200"></center>
+ </div>
+    <main>
+        <section id="biografia">
+            <h1>Hola soy Dylan Santos Garcia</h1>
+            <p>Soy de La Paz Bolivia actualmente estudio en la Universidad Informatica Bolivia cursando mi segundo semestre, trabajo en diferentes areas de tecnoligia.</p>
+            <p>Gracias por visitar mi pagina personal en el menu se encuentran mi contacto y mi correo electronico</p>
+        </section>
+        
+    </main>
+    <div class="contenedor-fotos">
+
+    <center><img src="descarga.jpg" alt="laptops" class="img-redonda" width="200" height="200"></center>
+    </div>
+    <section class="seccion-tablas">
+    <h2>Mis Conocimientos Técnicos</h2>
+    <table class="tabla-skills">
+        <thead>
+            <tr>
+                <th>Tecnología</th>
+                <th>Nivel</th>
+                <th>Años de Estudio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML5</td>
+                <td>Principiante</td>
+                <td>6 meses</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Principiante</td>
+                <td>4 meses</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Principiante</td>
+                <td>3 meses</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="registro" class="contenedor-formulario">
+    <h2>Contáctame / Registro</h2>
+    <form id="contactForm">
+        <div class="campo">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+        </div>
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar Registro</button>
+    </form>
+</section>
+    <footer>
+        
+        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+        
+    </footer>
+    
+        
+
+    <script src="java.js"></script>
+</body>
+</html>
